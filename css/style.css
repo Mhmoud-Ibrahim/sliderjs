@@ -1,0 +1,52 @@
+.item 
+{
+    cursor: pointer;
+}
+.item-caption
+{
+    background-color: #fff;
+    position: absolute;
+    bottom: 30px;
+    left: 10%;
+
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+}
+#lightBoxContainer
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 9999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#lightbox{
+    position: relative;
+    height: 70vh;
+    width: 50%;
+    background-color: #09c;
+    background-image: url(../images/portfolio-4.jpg);
+    background-size: 100% 100%;
+    background-repeat: center center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#lightbox i 
+{
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#closeBtn
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
